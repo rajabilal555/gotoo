@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/rajabilal555/gotoo.git",
   "author": "Bilal Raja <rajabilal555@gmail.com>",
-  "license": "MIT (with Attribution)",
+  "license": "MIT",
   "bin": {
     "gotoo": "npm/run.js"
   },

@@ -38,6 +38,14 @@ This will download the Javascript installer from npm, which will download the re
 
 Checkout [gotoo on npm](https://www.npmjs.com/package/gotoo)
 
+### Install via cargo
+
+If you would like to install it The Rust Way™. Run the following command:
+
+```shell
+cargo install gotoo
+```
+
 ### Download manually
 
 Download the binary for your platform from the [latest release](https://github.com/rajabilal555/gotoo/releases) on Github.
@@ -52,14 +60,6 @@ Once Rust is installed, you can build and install Gotoo by running the following
 git clone https://github.com/rajabilal555/gotoo.git
 cd gotoo
 cargo install --path .
-```
-
-### Install via cargo
-
-If you would like to install it The Rust Way™. Run the following command:
-
-```shell
-cargo install gotoo
 ```
 
 ## Usage

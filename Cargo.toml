@@ -9,10 +9,10 @@ authors = ["Bilal Pervez <rajabilal555@gmail.com>"]
 homepage = "https://github.com/rajabilal555/gotoo"
 repository = "https://github.com/rajabilal555/gotoo"
 
-license = "MIT (with Attribution)"
+license = "MIT"
 readme = "README.md"
 
-keywords = ["cli", "search", "project manager", "gotoo"]
+keywords = ["cli", "search", "project", "manager", "gotoo"]
 categories = ["command-line-utilities"]
 
 include = ["src/**/*"]
