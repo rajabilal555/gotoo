@@ -2,11 +2,25 @@
 name = "gotoo"
 version = "0.1.0"
 edition = "2021"
+description = "A tool to search files"
+
+authors = ["Bilal Pervez <rajabilal555@gmail.com>"]
+
+homepage = "https://github.com/rajabilal555/gotoo"
+repository = "https://github.com/rajabilal555/gotoo"
+
+license = "MIT (with Attribution)"
+readme = "README.md"
+
+keywords = ["cli", "search", "project manager", "gotoo"]
+categories = ["command-line-utilities"]
+
+include = ["src/**/*"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 clap = "4.4.2"
-serde = {version = "1.0.188", features = ['derive'] }
+serde = { version = "1.0.188", features = ['derive'] }
 serde_json = "1.0.106"
 inquire = "0.6.2"

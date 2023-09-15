@@ -1,2 +1,11 @@
+/.idea
+
+/node_modules
 /target
+/builds
+/dist
+
+*.rs.bk
+*.iml
+
 projects.json

@@ -3,6 +3,7 @@ mod errors;
 mod project;
 
 extern crate clap;
+extern crate inquire;
 
 use clap::{Arg, ArgAction, Command};
 use editor::Editor;
@@ -50,7 +51,6 @@ fn main() -> Result<(), Box<dyn Error>> {
 
         match paction {
             Ok(paction) => {
-                print!("You selected {}!", paction);
                 action = Some(paction);
             }
             Err(_) => println!("There was an error, please try again"),
@@ -91,6 +91,12 @@ fn main() -> Result<(), Box<dyn Error>> {
         let project_name = Text::new("Enter a name for your project").prompt()?;
         let project_directory = Text::new("Select a directory").prompt()?;
 
+        // Check if the directory exists
+        if !Path::new(&project_directory).exists() {
+            return Err(Box::new(CmdError(
+                "Project directory does not exist".into(),
+            )));
+        }
         let new_project = Project {
             name: project_name.to_string(),
             directory: project_directory.to_string(),

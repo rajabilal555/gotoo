@@ -1,0 +1,28 @@
+{
+  "name": "gotoo",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/rajabilal555/gotoo.git",
+  "author": "Bilal Raja <rajabilal555@gmail.com>",
+  "license": "MIT (with Attribution)",
+  "bin": {
+    "gotoo": "npm/run.js"
+  },
+  "scripts": {
+    "preinstall": "node npm/scripts.js uninstall",
+    "postinstall": "node npm/scripts.js install"
+  },
+  "files": [
+    "npm/**/*"
+  ],
+  "dependencies": {
+    "binary-install": "^1.1.0"
+  },
+  "keywords": [
+    "gotoo",
+    "manage",
+    "project",
+    "free",
+    "cli"
+  ]
+}
