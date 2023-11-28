@@ -30,7 +30,7 @@ function getBinary() {
   const platform = getPlatform();
   const version = require("../package.json").version;
   const url = `https://github.com/rajabilal555/gotoo/releases/download/v${version}/gotoo-${platform}.tar.gz`;
-  return new Binary(url, { name: "gotoo" });
+  return new Binary("gotoo", url);
 }
 
 module.exports = getBinary;

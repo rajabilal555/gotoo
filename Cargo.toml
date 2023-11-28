@@ -2,7 +2,7 @@
 name = "gotoo"
 version = "0.1.0"
 edition = "2021"
-description = "A tool to search files"
+description = "A tool for developers who want to efficiently manage and access their project directories using their preferred code editors."
 
 authors = ["Bilal Pervez <rajabilal555@gmail.com>"]
 
