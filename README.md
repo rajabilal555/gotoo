@@ -2,6 +2,10 @@
 
 Gotoo is a command-line project manager for developers who want to efficiently manage and access their project directories using their preferred text editors. With Gotoo, you can easily open saved projects in your chosen editor and add new projects to the list for quick access.
 
+---
+
+_Note:_ My main reason to create this was to learn **rust** and the process of publishing packages.
+
 ## Table of Contents
 
 - [Supported Operating Systems](#supported-operating-systems)
