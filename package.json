@@ -1,28 +1,36 @@
 {
   "name": "gotoo",
-  "version": "0.1.1",
-  "main": "index.js",
-  "repository": "https://github.com/rajabilal555/gotoo.git",
-  "author": "Bilal Raja <rajabilal555@gmail.com>",
-  "license": "MIT",
+  "version": "0.1.8",
+  "description": "A tool for developers who want to efficiently manage and access their project directories using their preferred code editors.",
+  "scripts": {
+    "postinstall": "node npm/install.js"
+  },
   "bin": {
     "gotoo": "npm/run.js"
   },
-  "scripts": {
-    "preinstall": "node npm/scripts.js uninstall",
-    "postinstall": "node npm/scripts.js install"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajabilal555/gotoo.git"
   },
+  "keywords": [
+    "cli",
+    "search",
+    "project",
+    "manager",
+    "gotoo"
+  ],
+  "author": "Bilal Pervez <rajabilal555@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajabilal555/gotoo/issues"
+  },
+  "homepage": "https://github.com/rajabilal555/gotoo",
   "files": [
-    "npm/**/*"
+    "npm/**/*",
+    "README.md",
+    "LICENSE"
   ],
   "dependencies": {
     "binary-install": "^1.1.0"
-  },
-  "keywords": [
-    "gotoo",
-    "manage",
-    "project",
-    "free",
-    "cli"
-  ]
+  }
 }
