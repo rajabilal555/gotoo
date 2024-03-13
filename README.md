@@ -1,3 +1,7 @@
+<p align="center">
+  <img align="center" src="https://github.com/rajabilal555/gotoo/assets/15360941/53972bf9-38c9-456f-8ae0-a8d7a93ce648" />
+</p>
+
 # Gotoo
 
 Gotoo is a command-line project manager for developers who want to efficiently manage and access their project directories using their preferred text editors. With Gotoo, you can easily open saved projects in your chosen editor and add new projects to the list for quick access.
