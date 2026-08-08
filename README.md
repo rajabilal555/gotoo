@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" src="https://github.com/rajabilal555/gotoo/assets/15360941/53972bf9-38c9-456f-8ae0-a8d7a93ce648" />
+<img alt="Gotoo" src="https://shieldcn.dev/header/dots.svg?title=Gotoo&subtitle=A+command-line+project+manager+for+developers+who+want+to+efficiently+manage+their+projects.&logo=shadcncraft&logoColor=cf9814&size=wide&mode=dark&theme=slate&align=left&font=geist">
 </p>
 
 # Gotoo
